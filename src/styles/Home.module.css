@@ -1,0 +1,27 @@
+
+
+.container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 50vh; /* Full viewport height */
+  text-align: center;
+  background-color: #ffd5d5; /* Light background for contrast */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 50%; /* Set width */
+  margin: auto; /* Center horizontally */
+}
+
+.title {
+  font-size: 1.5rem; /* Larger font size for the title */
+  color: #333; /* Darker text color */
+}
+
+.answer {
+  font-size: 3rem; /* Slightly larger font for the answer */
+  color: #00408a; /* Blue color for emphasis */
+  font-weight: bold; /* Bold text for the answer */
+}
