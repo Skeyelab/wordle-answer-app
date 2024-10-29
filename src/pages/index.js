@@ -1,4 +1,5 @@
 // pages/index.js
+
 import client from '../lib/redisClient';
 
 const Home = ({ wordleAnswer }) => {
